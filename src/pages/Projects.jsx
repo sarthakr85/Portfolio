@@ -7,12 +7,12 @@ import GithubFinderImage from "../resources/images/GithubFinderApp_Image.png";
 function Projects() {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content text-center">
+      <div className="hero-content text-center" style={{ width: "100vw" }}>
         <div className="max-w-5xl">
           <h1 className="text-5xl font-bold">My Projects</h1>
           <div className="flex flex-column flex-wrap justify-center ">
             <span>
-              <div className="card card-compact w-96 bg-base-100 shadow-xl card-border">
+              <div className="card card-compact  w-80 bg-base-100 shadow-xl card-border">
                 <figure>
                   <img
                     src={SupportDeskAppImage}
@@ -57,7 +57,7 @@ function Projects() {
               </div>
             </span>
             <span>
-              <div className="card card-compact w-96 bg-base-100 shadow-xl card-border">
+              <div className="card card-compact w-80 bg-base-100 shadow-xl card-border">
                 <figure>
                   <img
                     src={HouseMarketPlaceImage}
@@ -101,7 +101,7 @@ function Projects() {
               </div>
             </span>
             <span>
-              <div className="card card-compact w-96 bg-base-100 shadow-xl card-border">
+              <div className="card card-compact w-80 bg-base-100 shadow-xl card-border">
                 <figure>
                   <img src={ForkifyImage} alt="ForkifyPageImage" />
                 </figure>
@@ -140,7 +140,7 @@ function Projects() {
               </div>
             </span>
             <span>
-              <div className="card card-compact w-96 bg-base-100 shadow-xl card-border">
+              <div className="card card-compact w-80 bg-base-100 shadow-xl card-border">
                 <figure>
                   <img src={GithubFinderImage} alt="GithubFinderPageImage" />
                 </figure>
@@ -179,7 +179,7 @@ function Projects() {
               </div>
             </span>
             <span>
-              <div className="card card-compact w-96 bg-base-100 shadow-xl card-border">
+              <div className="card card-compact w-80 bg-base-100 shadow-xl card-border">
                 <figure>
                   <img src={FeedbackUIImage} alt="FeedbackUIPageImage" />
                 </figure>
