@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
-import ProfilePic from "../resources/images/ProfilePic.jpg";
 import Resume from "../resources/Sarthak_Rathi_Resume.pdf";
 
 function Navbar() {
